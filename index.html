@@ -47,6 +47,12 @@ p{line-height:2}
  border:2px dashed #d9a5ce;border-radius:18px;
  min-height:155px;display:flex;align-items:center;
  justify-content:center;flex-direction:column;padding:10px;
+}.photo img{
+ width:100%;
+ height:155px;
+ object-fit:cover;
+ border-radius:14px;
+ display:block;
 }
 .photo span{font-size:35px}
 .jar{font-size:75px;cursor:pointer;transition:.2s}
@@ -146,13 +152,21 @@ iframe{width:100%;max-width:420px;height:90px;border:0;border-radius:15px}
 <section class="card hidden" id="memories">
  <h2 class="section-title">صندوق ذكرياتنا 📸</h2>
  <p>كل صورة إلها حكاية، وكل ذكرى إلها مكان حلو 💗</p>
- <div class="memory-grid">
-  <div class="photo"><span>📷</span>صورتنا الأولى</div>
-  <div class="photo"><span>🌸</span>أحلى ذكرى</div>
-  <div class="photo"><span>💗</span>ضحكاتنا</div>
-  <div class="photo"><span>🎀</span>أيامنا الحلوة</div>
- </div>
- <p class="small">إطارات الصور جاهزة، وبنضيف صوركم لما تقدري تبعتيها.</p>
+
+<div class="memory-grid">
+  <div class="photo"><img src="4BBE09DE-0A04-4695-A878-A9AB02F31C7E.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="513CE387-143C-4572-95CE-656D348EFF40.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="5FA6756C-D507-4E70-94FD-F689661976C3.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="639668B7-F78F-49EA-8D35-DA3DC5B75318.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="8E53A134-9FFC-495D-8FE6-7714748B817E.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="B5ADA1D3-B518-4C45-ADF0-0AF6106D6BD3.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="E613BDA6-A9CE-4472-B145-A8CA13483E88.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="FA81C44D-DCCB-4617-9356-E936A95C7922.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="IMG_8792.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="IMG_8793.jpeg" alt="ذكرياتنا"></div>
+  <div class="photo"><img src="IMG_8794.jpeg" alt="ذكرياتنا"></div>
+</div>
+
  <button class="btn" onclick="showSection('wishes')">افتحي برطمان الأمنيات ✨</button>
 </section>
 
