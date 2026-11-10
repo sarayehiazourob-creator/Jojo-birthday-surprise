@@ -1,1 +1,277 @@
 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>إلى دلوعتي جوجو 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap');
+
+*{box-sizing:border-box}
+body{
+ margin:0;font-family:'Cairo',sans-serif;
+ background:linear-gradient(145deg,#fff0f8,#f0e5ff,#ffe5f2);
+ color:#713d75;text-align:center;
+ min-height:100vh;
+}
+button{font-family:inherit;cursor:pointer}
+.hidden{display:none!important}
+.container{max-width:720px;margin:auto;padding:25px 17px}
+h1,h2{color:#a34d91}
+p{line-height:2}
+.card{
+ background:#ffffffd9;border:1px solid #f4c9e9;
+ border-radius:25px;padding:25px;margin:22px 0;
+ box-shadow:0 8px 28px #bd82b52b;
+}
+.btn{
+ border:0;border-radius:30px;padding:12px 25px;
+ color:white;background:linear-gradient(90deg,#df80b8,#a783d8);
+ font-size:16px;font-weight:bold;margin:10px;
+ box-shadow:0 5px 14px #b46da544;
+}
+.btn:hover{transform:scale(1.04)}
+.heart{color:#e77db7;font-size:25px}
+#opening{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.envelope{font-size:100px;animation:float 2s infinite ease-in-out}
+@keyframes float{50%{transform:translateY(-12px)}}
+#site{display:none}
+.hero{padding:30px 0}
+.hero h1{font-size:34px}
+.small{font-size:13px;color:#a77a9e}
+.section-title{font-size:25px}
+.memory-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.photo{
+ background:linear-gradient(140deg,#ffe1f1,#e9dcff);
+ border:2px dashed #d9a5ce;border-radius:18px;
+ min-height:155px;display:flex;align-items:center;
+ justify-content:center;flex-direction:column;padding:10px;
+}
+.photo span{font-size:35px}
+.jar{font-size:75px;cursor:pointer;transition:.2s}
+.jar:active{transform:scale(1.12)}
+.wish{
+ background:#fff1f8;border-radius:18px;padding:17px;
+ min-height:85px;margin:15px 0;font-weight:bold;
+}
+.certificate{
+ border:5px double #c68dc0;
+ background:linear-gradient(135deg,#fff9fc,#f4eaff);
+ padding:25px;border-radius:18px;
+}
+.gift{font-size:100px;cursor:pointer;animation:float 2s infinite}
+.cheque{
+ background:linear-gradient(120deg,#fff9fc,#f1e2ff);
+ border:4px double #bd82b5;border-radius:20px;
+ padding:20px;text-align:right;margin-top:20px;
+}
+.cheque h2{text-align:center}
+.amount{font-size:35px;color:#9a55a8;font-weight:800;text-align:center}
+.signature{text-align:left;margin-top:20px}
+footer{padding:30px;color:#a4779e}
+iframe{width:100%;max-width:420px;height:90px;border:0;border-radius:15px}
+</style>
+</head>
+<body>
+
+<div id="opening">
+ <div>
+  <div class="envelope">💌</div>
+  <h1>إلى دلوعتي جوجو</h1>
+  <p>في مفاجأة صغيرة مستنياكي يا جوجو 💗</p>
+  <p>من سوسو، بكل الحب 🎀</p>
+  <button class="btn" onclick="openSite()">افتحي الظرف يا جوجو 💌</button>
+ </div>
+</div>
+
+<div id="site">
+<div class="container">
+
+<header class="hero">
+ <div class="heart">♡ ♡ ♡</div>
+ <h1>كل سنة وإنتِ طيبة يا جوجو 🎂</h1>
+ <p>أهلاً بأحلى دلّوعة بالدنيا 💜</p>
+ <div id="music"></div>
+ <p class="small">أغنيتك الحلوة مستنياكي 🎶</p>
+</header>
+
+<section class="card" id="birthday">
+  <div style="font-size:45px">🎀🎂🎀</div>
+  <h2>يوم ميلاد دلوعتي جوجو</h2>
+  <h1>11 / 11 / 2007</h1>
+  <p>كل سنة وإنتِ أحلى جوجو بالدنيا 💗</p>
+  <h3 id="countdownTitle">العد التنازلي لعيد ميلادك ✨</h3>
+  <div style="display:flex;justify-content:center;gap:8px;flex-wrap:wrap;direction:rtl">
+    <div class="photo"><b id="days">00</b> يوم</div>
+    <div class="photo"><b id="hours">00</b> ساعة</div>
+    <div class="photo"><b id="minutes">00</b> دقيقة</div>
+    <div class="photo"><b id="seconds">00</b> ثانية</div>
+  </div>
+</section>
+
+<section class="card">
+ <h2 class="section-title">رسالة من سوسو 💌</h2>
+ <p>
+ جوجو حبيبتي، كل سنة وإنتِ بخير يا دلوعتي 💗
+ <br>
+ بتمنالك سنة جديدة تكون مليانة أشياء حلوة،
+ وضحكات من قلبك، وأيام تشبه قلبك الحلو.
+ يا رب تحققي فيها كل اللي بتتمنيه،
+ وتفضلي دايمًا مبسوطة ومرتاحة، وما تشوفي إلا الخير.
+ <br>
+ حبيت أعملك هالهدية بطريقة مختلفة،
+ وأخصصلك شي إلك لحالك، عشان يكون عندك ذكرى حلوة من يوم ميلادك.
+ <br>
+ مبسوطة إنك بحياتي، وإن شاء الله تضل بينا أيام وذكريات أحلى وأحلى.
+ <br>
+ كل سنة وإنتِ جوجو الحلوة، بحبك يا دلوعتي 🎀
+ <br>
+ من سوسو 💗
+ </p>
+ <button class="btn" onclick="showSection('cake')">كمّلي المفاجأة 💗</button>
+</section>
+
+<section class="card hidden" id="cake">
+ <h2 class="section-title">عيد ميلاد سعيد يا جوجو 🎂</h2>
+ <div style="font-size:100px">🎂</div>
+ <p>تخيلي إنك قدام الكيكة، يلا تمني أمنية حلوة!</p>
+ <button class="btn" onclick="lightCandles()">ولّعي الشموع 🕯️</button>
+ <div id="candles" style="font-size:35px">🕯️ 🕯️ 🕯️</div>
+ <button class="btn" onclick="blowCandles()">اطفي الشموع ✨</button>
+ <p id="cakeMessage"></p>
+ <button class="btn" onclick="showSection('memories')">يلا نشوف ذكرياتنا 📸</button>
+</section>
+
+<section class="card hidden" id="memories">
+ <h2 class="section-title">صندوق ذكرياتنا 📸</h2>
+ <p>كل صورة إلها حكاية، وكل ذكرى إلها مكان حلو 💗</p>
+ <div class="memory-grid">
+  <div class="photo"><span>📷</span>صورتنا الأولى</div>
+  <div class="photo"><span>🌸</span>أحلى ذكرى</div>
+  <div class="photo"><span>💗</span>ضحكاتنا</div>
+  <div class="photo"><span>🎀</span>أيامنا الحلوة</div>
+ </div>
+ <p class="small">إطارات الصور جاهزة، وبنضيف صوركم لما تقدري تبعتيها.</p>
+ <button class="btn" onclick="showSection('wishes')">افتحي برطمان الأمنيات ✨</button>
+</section>
+
+<section class="card hidden" id="wishes">
+ <h2 class="section-title">برطمان الأمنيات ✨</h2>
+ <p>اضغطي على البرطمان وكل مرة رح تطلعلك أمنية جديدة.</p>
+ <div class="jar" onclick="newWish()">🫙</div>
+ <div class="wish" id="wishText">اضغطي وشوفي أمنيتك يا جوجو 💜</div>
+ <button class="btn" onclick="newWish()">طلعيلي أمنية 💌</button>
+ <button class="btn" onclick="showSection('certificate')">شهادتي الحلوة 🏆</button>
+</section>
+
+<section class="card hidden" id="certificate">
+ <div class="certificate">
+  <div style="font-size:50px">👑</div>
+  <h2>شهادة مميزة جداً</h2>
+  <p>تُمنح هذه الشهادة إلى</p>
+  <h1>جمانة - جوجو 💗</h1>
+  <p>بمناسبة حصولها على لقب:</p>
+  <h2>أجمل دلّوعة في العالم 🎀</h2>
+  <p>لتميزها بالطيبة والروح الحلوة والضحكة الجميلة.</p>
+  <p>توقيع: سوسو 💜</p>
+ </div>
+ <button class="btn" onclick="showSection('gift')">آخر مفاجأة 🎁</button>
+</section>
+
+<section class="card hidden" id="gift">
+ <h2 class="section-title">استني يا جوجو... 💗</h2>
+ <p>لسه في آخر هدية، وهاي مخصوص إلك من سوسو.</p>
+ <div class="gift" onclick="revealGift()">🎁</div>
+ <p>اضغطي على الهدية وافتحيها!</p>
+ <div id="cheque" class="cheque hidden">
+  <div style="text-align:center;font-size:35px">🎀 💗 🎀</div>
+  <h2>قسيمة هدية نقدية</h2>
+  <p>إلى: جمانة - دلوعتي جوجو</p>
+  <p>المناسبة: عيد ميلاد أحلى جوجو</p>
+  <div class="amount">١٠٠٠ جنيه مصري</div>
+  <p style="text-align:center">فقط لا غير</p>
+  <hr style="border:1px dashed #d6a5ce">
+  <p>مش كل الهدايا بتتقاس بقيمتها، بس هديتي إلك حبيت تكون مختلفة</p>
+  <p>مقدمة من: سوسو 💗</p>
+  <p class="small">هدية نقدية حقيقية مقدمة من سوسو، تُسلّم لجوجو بشكل منفصل. هذه القسيمة التذكارية ليست شيكاً بنكياً قابلاً للصرف.</p>
+  <div class="signature">بحبك يا دلوعتي<br>سوسو 🎀</div>
+ </div>
+</section>
+
+<footer>
+ صُنعت بكل الحب من سوسو إلى دلوعتي جوجو 💗
+ <div>كل سنة وإنتِ أحلى جوجو 🎂</div>
+</footer>
+</div>
+</div>
+
+<script>
+function openSite(){
+ document.getElementById('opening').style.display='none';
+ document.getElementById('site').style.display='block';
+ document.getElementById('music').innerHTML=
+ '<iframe src="https://www.youtube.com/embed/1UYuD_UUoFY?autoplay=1&playsinline=1" title="أغنية عيد الميلاد" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+}
+function showSection(id){
+ document.querySelectorAll('#site section').forEach(s=>s.classList.add('hidden'));
+ document.getElementById(id).classList.remove('hidden');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+function lightCandles(){
+ document.getElementById('candles').textContent='🕯️🔥 🕯️🔥 🕯️🔥';
+ document.getElementById('cakeMessage').textContent='يلا تمني أمنية يا جوجو 💗';
+}
+function blowCandles(){
+ document.getElementById('candles').textContent='💨 💨 💨';
+ document.getElementById('cakeMessage').textContent='يا رب كل أمنياتك تتحقق يا جوجو! 💜';
+}
+const wishes=[
+'يا رب سنتك الجديدة تكون مليانة فرح وراحة بال 💗',
+'يا رب تحققي كل حلم نفسك فيه ✨',
+'يا رب تفضلي دايمًا محاطة بناس بتحبك 🎀',
+'يا رب ما تغيب ضحكتك عن وجهك أبداً 🌸',
+'يا رب أيامك الجاية تكون أجمل من كل اللي فات 💜',
+'يا رب يرزقك راحة البال والحظ الحلو 🦋',
+'يا رب تلاقي الخير بكل خطوة تخطيها 💕'
+];
+let lastWish=-1;
+function newWish(){
+ let n;
+ do{n=Math.floor(Math.random()*wishes.length)}while(n===lastWish);
+ lastWish=n;
+ document.getElementById('wishText').textContent=wishes[n];
+}
+function revealGift(){
+ document.getElementById('cheque').classList.remove('hidden');
+ document.querySelector('#gift .gift').textContent='💝';
+}
+function updateBirthdayCountdown(){
+ const now = new Date();
+ const isBirthday = now.getMonth()===10 && now.getDate()===11;
+
+ if(isBirthday){
+   document.getElementById('countdownTitle').textContent='اليوم يوم جوجو! كل سنة وإنتِ طيبة 🎂💗';
+   ['days','hours','minutes','seconds'].forEach(id=>{
+     document.getElementById(id).textContent='00';
+   });
+   return;
+ }
+
+ let target = new Date(now.getFullYear(),10,11,0,0,0);
+ if(now >= target){
+   target = new Date(now.getFullYear()+1,10,11,0,0,0);
+ }
+
+ const diff = target-now;
+ document.getElementById('days').textContent=Math.floor(diff/86400000);
+ document.getElementById('hours').textContent=Math.floor(diff%86400000/3600000);
+ document.getElementById('minutes').textContent=Math.floor(diff%3600000/60000);
+ document.getElementById('seconds').textContent=Math.floor(diff%60000/1000);
+}
+updateBirthdayCountdown();
+setInterval(updateBirthdayCountdown,1000);
+
+</script>
+</body>
+</html>
